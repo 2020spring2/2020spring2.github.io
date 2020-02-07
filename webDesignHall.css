@@ -1,0 +1,19 @@
+@charset "UTF-8";
+body{
+	background: radial-gradient(#DDECF4, white);
+}
+h1{
+	background: linear-gradient(45deg, #ACBCC4, #AEBCC3);
+	margin: 0;
+}
+/*Have This For The List Maybe*/
+.boxes {
+	background: linear-gradient(#AAD9F0,#DDECF4);
+}
+li .projects {
+	background: rgba(174, 188, 195, 0.75);
+}
+p .aboutMe {
+	margin: 8;
+	padding: 0;
+}
