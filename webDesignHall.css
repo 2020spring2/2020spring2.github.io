@@ -12,7 +12,7 @@ p {
 h2 {
 	font-family:"antic-didone";
 		font: "antic-didone";
-	line-height: 50px
+	line-height: 50px;
 }
 /*Concerning Everything Above the Line*/
 h1, .aboutMe h2{
@@ -33,7 +33,7 @@ h1, .aboutMe h2{
 	border-top:medium ridge #ACBCC4;
 	border-left: medium ridge black;
 	border-right: medium ridge black;
-	margin: 0 auto;
+	padding: 0 auto;
 }
 ul {
 	padding-left: 8;
@@ -45,5 +45,6 @@ ul {
 	background-color: rgba(174, 188, 195, .15) !important;
 	text-align: justify;
 	font-size: 16px;
-	
+	font-family:"kelly-slab";
+		font:italic;
 }
