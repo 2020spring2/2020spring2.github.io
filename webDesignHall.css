@@ -1,11 +1,29 @@
 @charset "UTF-8";
+/*Concerning the Whole Page*/
+
 body{
-	background: radial-gradient(#FFF, #D8E9F2);
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background: radial-gradient(#AEBCC3, #D8E9F2);
 }
+p {
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		font: "Palatino Linotype";
+}
+h2 {
+	font-family:"antic-didone";
+		font: "antic-didone";
+}
+/*Concerning Everything Above the Line*/
 h1, .aboutMe h2{
-	background: radial-gradient(#D8E9F2, #AEBCC3);
+	font-family:"antic-didone";
+		font: "antic-didone";
 	margin: 0;
 }
+.aboutMe {
+	border-bottom: thin double black;
+	
+}
+/*Concerning from 'Project List to the End of the List'*/
 .boxes {
 	background: linear-gradient(#AAD9F0,#DDECF4) !important;
 }
@@ -24,8 +42,7 @@ ul {
 }
 .projects li{
 	background-color: rgba(174, 188, 195, .15) !important;
-}
-p .aboutMe {
-	margin: 0;
-	padding: 0;
+	text-align: justify;
+	font-size: 16px;
+	
 }
