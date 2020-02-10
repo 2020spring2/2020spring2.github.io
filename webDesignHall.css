@@ -7,17 +7,14 @@ body{
 }
 p {
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
-		font: "Palatino Linotype";
 }
 h2 {
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-		font: Cambria;
 	line-height: 50px;
 }
 /*Concerning Everything Above the Line*/
 h1, .aboutMe h2{
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-		font: Cambria;
 	margin: 0;
 }
 .aboutMe {
@@ -33,7 +30,7 @@ h1, .aboutMe h2{
 	border-top:medium ridge #ACBCC4;
 	border-left: medium ridge black;
 	border-right: medium ridge black;
-	padding: 0 auto;
+	padding: auto;
 }
 ul {
 	border-top: thin dotted #9DB7BF;
