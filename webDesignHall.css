@@ -2,19 +2,19 @@
 /*Concerning the Whole Page*/
 
 body{
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	background: radial-gradient(#AEBCC3, #D8E9F2);
 }
 p {
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-family:"Palatino Linotype";
 }
 h2 {
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family:Cambria;
+
 	line-height: 50px;
 }
 /*Concerning Everything Above the Line*/
 h1, .aboutMe h2{
-	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family:Cambria;
 	margin: 0;
 }
 .aboutMe {
@@ -30,7 +30,7 @@ h1, .aboutMe h2{
 	border-top:medium ridge #ACBCC4;
 	border-left: medium ridge black;
 	border-right: medium ridge black;
-	padding: auto;
+	padding: 0 auto;
 }
 ul {
 	border-top: thin dotted #9DB7BF;
@@ -40,8 +40,8 @@ ul {
 	background-color: rgba(174, 188, 195, .15) !important;
 	text-align: justify;
 	font-size: 16px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-		font: normal;
+	font-family: Gotham;
+	
 }
 /*Concerning the Copyright and Validation*/
 .copyrightValid {
