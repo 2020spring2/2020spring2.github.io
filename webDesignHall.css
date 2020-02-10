@@ -12,6 +12,7 @@ p {
 h2 {
 	font-family:"antic-didone";
 		font: "antic-didone";
+	line-height: 50px
 }
 /*Concerning Everything Above the Line*/
 h1, .aboutMe h2{
