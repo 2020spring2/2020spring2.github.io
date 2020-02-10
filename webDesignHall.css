@@ -25,7 +25,7 @@ h1, .aboutMe h2{
 	
 }
 /*Concerning from 'Project List to the End of the List'*/
-.boxes {
+#boxes {
 	background: linear-gradient(#AAD9F0,#DDECF4) !important;
 }
 .projects {
