@@ -2,7 +2,7 @@
 /*Concerning the Whole Page*/
 
 body{
-	background: radial-gradient(#AEBCC3, #D8E9F2);
+	background: repeat url(https://github.com/2020spring2/2020spring2.github.io/blob/master/cloudsLightBlueSky.jpg?raw=true);
 }
 p {
 	font-family:"Palatino Linotype";
@@ -23,14 +23,14 @@ h1, .aboutMe h2{
 }
 /*Concerning from 'Project List to the End of the List'*/
 #boxes {
-	background: linear-gradient(#AAD9F0,#DDECF4) !important;
+	background: linear-gradient(-45deg, #B1CFE9,#B1BEE9) !important;
 }
 .projects {
 	border-bottom:medium ridge #ACBCC4;
 	border-top:medium ridge #ACBCC4;
 	border-left: medium ridge black;
 	border-right: medium ridge black;
-	padding: 0;
+	padding: 0 auto;
 }
 ul {
 	border-top: thin dotted #9DB7BF;
@@ -45,5 +45,5 @@ ul {
 }
 /*Concerning the Copyright and Validation*/
 .copyrightValid {
-	align-content:center;
+ align-content: center;
 }
