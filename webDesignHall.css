@@ -30,7 +30,7 @@ h1, .aboutMe h2{
 	border-top:medium ridge #ACBCC4;
 	border-left: medium ridge black;
 	border-right: medium ridge black;
-	padding: 0 auto;
+	padding: 0;
 }
 ul {
 	border-top: thin dotted #9DB7BF;
