@@ -30,7 +30,7 @@ h1, .aboutMe h2{
 	border-top:medium ridge #ACBCC4;
 	border-left: medium ridge black;
 	border-right: medium ridge black;
-	padding: 0;
+	padding: 0 auto;
 }
 ul {
 	border-top: thin dotted #9DB7BF;
@@ -43,7 +43,20 @@ ul {
 	font-family: Gotham;
 	
 }
+a {
+	color: #000000;
+}
+a:hover {
+	color: #002A5E;
+	background:rgba(57,188,192,0.05);
+	border: 1px dotted #000000;
+}
 /*Concerning the Copyright and Validation*/
 .copyrightValid {
  align-content: center;
 }
+a.valid {
+	border: none !important;
+}
+/*Website for Color Picking: 
+		https://htmlcolorcodes.com/color-picker/*/
